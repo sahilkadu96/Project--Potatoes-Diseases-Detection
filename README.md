@@ -9,9 +9,9 @@
 - I have created a **CNN model with 6 Conv2D layers (one 32 units & 5 64 units with all 3x3 kernel with activation function RELU), 6 MaxPooling layers of poolsize 2**.
 - **Flattening the output before passing it into Dense layer of 64 units.**
 - **Final layer is a softmax layer that will output the probabilities of 3 classes.**
-- Predicting the images.
-- Deploying model to StreamLit.
+- On training the model, **we get validation accuracy around 90%**
+- **Deploying model to StreamLit interface which takes image as input & outputs the predicted class as well as the probability of it.** 
 
-# Steamlit Interface
+# Streamlit Interface
 
 ![image](https://github.com/sahilkadu96/Project--Potatoes-Diseases-Detection/assets/106151994/7d00a1bc-eb08-49bb-a6fd-254f16d35182)
